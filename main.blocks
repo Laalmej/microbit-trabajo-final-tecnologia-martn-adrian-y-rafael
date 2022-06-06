@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="ZO5BDh%?Ev7-}qsib:uR" x="0" y="0"><statement name="HANDLER"><block type="playMelody" id="w{HaB1Kb/.U-oanKHrBE"><value name="melody"><shadow type="melody_editor" id="W7IRKj)j1B{ce/D%Sz/8"><field name="melody">"C5 A B D F G E A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="?EPFz|B=aO4,(gkIm{kX"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="writeLED" id="4--^EX=0H5FAbC56gC=_"><field name="led">maqueen.LED.LEDRight</field><field name="ledswitch">maqueen.LEDswitch.turnOn</field><next><block type="writeLED" id="f[:^`)zoK?A!HkuP.(H1"><field name="led">maqueen.LED.LEDLeft</field><field name="ledswitch">maqueen.LEDswitch.turnOn</field><next><block type="motor_MotorRun" id="u#H89sD@(JaVJ,aYQTJ("><field name="index">maqueen.Motors.All</field><field name="Dir">maqueen.Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="1{`-;;h``W~UkXH?umcO"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">20</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="]p)Mg)q}m=zmwL)Hm,^[" x="536" y="5"><statement name="HANDLER"><block type="device_show_leds" id="c+u{t71P=V2F*^P/ebHW"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
